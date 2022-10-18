@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+   
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+ 
+}
+
+h1{font-size: 10em;}
+h2{font-size: 2em;}
+p{font-size: 1.25em;}
+ul {list-style: none;}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+    color: rgb(238, 238, 238);
+    background-color: blueviolet;
+
+}
+
+button:hover{
+    background-color: rgb(94, 33, 151);
+}
+
+
+
+.wasap {
+    background-color: rgb(43, 108, 11);
+}
+.wasap:hover{
+    background-color: rgb(30, 77, 9);
+}
+
+.logoemail {
+    background-color: rgb(255, 255, 255);
+}
+.logoemail:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.color-acento {color: blueviolet;}
+
+    
+header{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+header .logo{
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(138, 43, 226);
+    font-size: 1.6em;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0,0.5);
+    background-image: url(/images/logo1.png);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header nav{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25px;
+
+}
+
+header a {
+
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+         rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#nuestro-equipo .container{
+    text-align: center;
+    padding: 80px 12px;
+
+}
+
+#nuestros-servicios {
+
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-servicios .container{
+    padding: 80px 12px;
+}
+
+#nuestros-servicios h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+
+}
+
+#nuestros-servicios p{
+    display: none;
+}
+
+.carta h3 {
+    padding: 20px;
+
+}
+
+#nuestros-servicios .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin:20px;
+    border-radius: 25px;
+
+}
+
+.carta:first-child{
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/reparacion-equipos.jpg");
+    height: auto;
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/servico-electrico.jpg");
+    height: auto;
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/sistema-cctv.jpg");
+    height: auto;
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/soportetv.jpg");
+    height: auto;
+}
+
+.carta:nth-child(5){
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/diseno-web-carta.jpg");
+    height: auto;
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 70px 12px;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+
+}
+
+#contactenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    background-image: url(/images/callcenter.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80hv;
+    padding: 80px 12px;
+    
+}
+
+#contactenos h2 {
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    padding: 12px;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+}
+
+footer .container{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px) {
+    header{
+        position: fixed;
+        width: 100%;
+        
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 5px;
+    }
+
+    #hero {
+      display: inline-flex;
+      height: 100vh;
+      width: 100%;
+      
+    }
+
+    #hero h1 {
+        font-size: 4em;
+        text-shadow: 3px 3px 5px rgba(2, 124, 20, 0.5);
+        padding-bottom: 20px;
+    }
+
+    #nuestro-equipo .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #nuestro-equipo .texto-nuestro-equipo{
+        width: 50%;
+        max-width: 600px;
+        text-align: justify;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    #nuestro-equipo h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    #nuestro-equipo .img-nuestroequipo{
+        background-image: url("/images/nuestropersonal.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        border-radius: 30px;
+    }
+
+    
+    #nuestros-servicios .cartas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+
+        
+    }
+
+    #nuestros-servicios .carta{
+        display: block;
+        justify-content: center;
+        max-width: 350px;
+        margin: 12px;
+        padding: 20px;
+        box-shadow: 8px 8px 2px rgba(138, 43, 226, 0.3);
+        border: 1px solid rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 120px;
+        background-position: top;
+        background-color: rgb(78,78,78);
+  
+    }
+
+    #nuestros-servicios p{
+        display: block;
+        margin-bottom: 20px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        
+    }
+
+    #nuestros-servicios h2{
+        font-size: 4em;
+    }
+
+    #nuestros-servicios h3{
+        font-size: 1.8em;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+
+    .carta:first-child{
+        background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/reparacion-equipos-carta.jpg");
+        background-size: 100px;
+    }
+    
+    .carta:nth-child(2){
+        background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/servico-electrico-carta.jpg");
+        height: auto;
+    }
+    
+    .carta:nth-child(3){
+        background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/diseno-web-carta.jpg");
+        height: auto;
+    }
+    
+    .carta:nth-child(4){
+        background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/soportetv.jpg");
+        height: auto;
+    }
+
+    .carta:nth-child(5){
+        background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("/images/diseno-web-carta.jpg");
+        height: auto;
+    }
+
+
+    #caracteristicas {
+        background-image: url(/images/caractelisticas.jpg);
+        background-repeat: no-repeat;
+        background-size: 280px 380px;
+        background-position: calc(100vw - 680px) center;
+        border-radius: 30px;
+        border: 3px solid blueviolet;
+        margin: 15px;
+        /*------------------------------------------------------*/
+                
+    }
+
+    #caracteristicas .container {
+        text-align: initial;
+        padding: 150px 12px;
+        
+    }
+
+    #caracteristicas ul {
+        margin-left: 170px;
+    }
+
+    #contactenos{
+        padding: 20px;
+
+    }
+    #contactenos h2{
+        font-size: 4em;
+    }
+
+@media (max-width: 1100px){
+    #caracteristicas {
+    background-image:none;
+    }
+
+    #caracteristicas .container {
+        margin-left: 170px;
+        
+       
+    }
+
+   
+}
+
+
+
+}
+
